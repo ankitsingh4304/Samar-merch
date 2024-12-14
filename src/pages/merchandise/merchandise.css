@@ -1,0 +1,273 @@
+
+.cu-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: justify-evenly;
+    align-items: center;
+
+    justify-content: center;
+    background-attachment: fixed;
+    padding-top: 70px;
+    background-image: url('../../assets/customIllustration/bg11.jpg');
+    background-size: 100%;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover; /* Ensures the image covers the entire area */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; 
+
+}
+.merch-btn{
+    margin-top: 12px;
+}
+.samar-sizes{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.plus{
+    margin-right: 42px;
+    margin-top: 30px;
+    justify-content: center;
+}
+.sign-right{
+    position: relative;
+    left: 21.5%;
+}
+.sign-left{
+    position: relative;
+    left: -21.5%;
+}
+
+.team-name{
+    position: absolute;
+    margin-left: 5px;
+    margin-right: 5px;
+
+
+}
+
+.gameconsole{
+    height: 80px;
+    width: 80px;;
+
+
+}
+
+.heading_merch{
+    font-size: 35px;
+    margin-top: 80px;
+    margin-bottom: 60px;
+    font-family: crossFly;
+    color: #D3EE98;
+    text-shadow: 2.85px 2.85px 0.532px black;
+}
+
+.cu_main {
+    
+    color: white;
+    height: 70vh;
+    width: 90vw;
+    padding: 10px;
+    backdrop-filter: blur(30%px);
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.cu_container {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    padding: 50px;
+    width: 100%;
+    max-width: 1200px;
+    
+}
+.cu-maintext{
+    font-size: 20px;
+    font-weight: 600;
+    text-shadow: 2.85px 2.85px 0.532px black;
+    color: #D3EE98;
+
+}
+.cu-subtext{
+    font-size: 28px;
+    color: #D4BEE4;
+    font-weight: 600;
+    text-shadow: 2.85px 2.85px 0.532px black;
+}
+
+.cu-left-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.cu-merch-image {
+    width: 90px;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    transition-duration: 0.5s;
+    border-radius: 10px;
+
+    
+}
+.cu-merch-image:hover{
+    transform: scale(1.1,1.1);
+}
+.cu-main-image{
+    width: 650px;
+    height: 400px;
+    margin-right: 50px;
+    border-radius: 15px;
+}
+.cu-right-section {
+
+    max-width: 800px;;
+    
+}
+
+h1 {
+    font-size: 25px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.cu-price-section{
+    font-size: 15px;
+    color: white;
+    font-weight: 600;
+}
+
+.cu-price-list1{
+
+    margin-bottom: 5px;
+
+}
+
+.cu-special-text{
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    text-shadow: 2.85px 2.85px 0.532px black;
+}
+
+span{
+    color:#D3EE98;
+}
+.mrch {
+    background-color: #D3EE98;
+    color: black;
+    padding: 10px 20px;
+    font-size: 18px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.mrch:hover {
+    background-color: #AA5486;
+    color: black;
+}
+
+.cu-disclaimer {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    color: white;
+    font-weight: 600;
+}
+
+
+
+@media (max-width: 1300px){
+    .cu_main{
+        height: auto;
+        width: auto;
+    }
+    .cu-right-section{
+        margin-left: 20px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .cu_main{
+        height: auto;
+        width: auto;
+    }
+    .cu-left-section{
+        order: 2;
+    }
+    .cu-main-image{
+        order: 1;
+    }
+    .cu-right-section{
+        order: 3;
+    }
+
+    .cu-main-image{
+        height: auto;
+        width: auto;
+        margin-right: 0px;
+    }
+
+    .gameconsole{
+        display: none;
+    }
+    
+    .cu_container {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+
+    .cu-main-image {
+        width: 70vw;
+    }
+
+    .heading {
+        font-size: 10vw;
+    }
+
+    .cu-left-section {
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 30px;
+    }
+    ul{
+        text-align: center;
+    }
+    .cu-right-section{
+        text-align: center;
+    }
+
+    button {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 515px) {
+
+    .cu-merch-image{
+        width: 40px;
+    }
+    .cu-left-section {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    button{
+        width: auto;
+
+    }
+    .cu-maintext{
+        font-size: auto;
+    }
+    
+}
